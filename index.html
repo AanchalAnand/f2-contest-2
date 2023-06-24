@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Market Crypto Coin Data</h1>
+        <div class="buttons">
+            <!-- <button id="fetch-button">Fetch Data</button> -->
+          <input type="text" id="search-input" placeholder="Search by Name or Symbol">
+          <button id="sort-market-cap-button">Sort by Mkt Cap</button>
+          <button id="sort-percentage-change-button">Sort by percentage</button>
+        </div>
+        <table id="coin-table">
+            <tr>
+                <th>Logo</th>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Current Price</th>
+                <th>% Change</th>
+                <th>Market cap</th>
+              </tr>
+          <tbody id="coin-table-body">
+          
+          </tbody>
+        </table>
+      </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
